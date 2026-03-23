@@ -12,7 +12,7 @@ export function useFetch(url) {
       setLoading(false);
     };
 
-    // fetches data related to posts 
+    // fetches data related to posts
     fetchData();
   }, [url]);
 
